@@ -6,6 +6,8 @@ target 'MainModule' do
   use_frameworks!
 
   # Pods for MainModule
+  pod "SubModuleCore", :path => "SubModuleCore/"
+  pod "SubModuleData", :path => "SubModuleData/"
 
   target 'MainModuleTests' do
     inherit! :search_paths

@@ -1,0 +1,6 @@
+[submodule "SubModuleData"]
+	path = SubModuleData
+	url = https://github.com/dazen-lxt/SubModuleData.git
+[submodule "SubModuleCore"]
+	path = SubModuleCore
+	url = https://github.com/dazen-lxt/SubModuleCore.git

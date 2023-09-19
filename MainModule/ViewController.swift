@@ -6,12 +6,16 @@
 //
 
 import UIKit
+import SubModuleCore
+import SubModuleData
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        titleLabel.text = "Core: \(CoreInfo.version) \n Data: \(DataInfo.version)"
     }
 
 
